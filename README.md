@@ -1,6 +1,6 @@
 # 🐾 **Hound Tool** 🐾
 
-A fork of the original **Hound Tool** by **Anil Prasad (techchip)**, with fixes and improvements! 🛠️  
+A fork of the original **Hound Tool** by **Anil Parashar (techchipnet)**, with fixes and improvements! 🛠️  
 This version removes the broken Cloudflare link generation and replaces it with **Tunnelmole** and **localhost.run** for reliable public link generation using port forwarding. 🚀
 
 ---
@@ -16,6 +16,7 @@ This fork fixes issues with the original tool, ensuring you can generate public 
 - **No More Cloudflare**: Removed the broken Cloudflare link generation. 🚫
 - **Easy to Use**: Simple commands to start and share your local server. 🛠️
 - **One-Command Installation**: Install Hound in Termux with a single command! 🚀
+- **APT Installation**: Install Hound using `apt` after adding the **Alienkrishn Repository**. 📦
 
 ---
 
@@ -23,7 +24,7 @@ This fork fixes issues with the original tool, ensuring you can generate public 
 
 You can install **Hound** in Termux with just one command! 🚀  
 
-### **One-Command Installation**
+### **Option 1: One-Command Installation**
 ```bash
 curl -sL https://github.com/Anon4You/hound/raw/main/install.sh | bash
 ```
@@ -32,6 +33,17 @@ This command will:
 1. Install all required dependencies (Git, PHP, Node.js, and Tunnelmole). 🛠️
 2. Clone the repository to `$PREFIX/share/hound`. 📂
 3. Create a `hound` executable in `$PREFIX/bin` for easy access. 🚀
+
+---
+
+### **Option 2: APT Installation (Using Alienkrishn Repository)**
+
+If you want to install **Hound** using `apt`, you need to add the [Alienkrishn Repository](https://github.com/Anon4You/alienkrishn.git) to your system. Follow these steps:
+
+ **Install Hound**:
+   ```bash
+   apt install hound -y
+   ```
 
 ---
 
@@ -83,8 +95,9 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 🙏 **Credits**
 
-- **Original Tool**: [Hound by techchipnet](https://github.com/techchipnet/hound) 🐾
+- **Original Tool**: [Hound by Techchipnet](https://github.com/techchipnet/hound) 🐾
 - **Fork Maintainer**: [Alienkrishn](https://github.com/Anon4You) 🛠️
+- **Alienkrishn Repository**: [Alienkrishn Repository](https://github.com/Anon4You/alienkrishn) 📦
 
 ---
 

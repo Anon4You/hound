@@ -95,11 +95,11 @@ rm -rf ip.txt
 fi
 sed -e '/tc_payload/r payload' index_chat.html > index.html
 read -p "Start hound tool? [Y/n]> " choise
-if [[ $choise == Y || $choise == yes ]]; then
-  hosting 
-else
+if [[ $choise == n || $choise == no ]]; then
   echo "Exiting..."; sleep 1 
-  exit 0 
+  exit 0
+else
+  hosting
 fi
 }
 

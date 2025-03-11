@@ -13,20 +13,14 @@ RAM: 8
 CPU Cores: 8
 Screen Width: 360
 Screen Height: 820
-Local Time: 2:28:29 AM
+Local Time: 2:17:15 AM
 RefUrl: 
 OS CPU: undefined
 -------------------------
+
+User denied the Geolocation permision.
 
 Target IP Detail
 ----------------
 IP: 152.58.163.7
 ---------------
-
-GPS Lat Long Information
------------------------
-Latitude: 23.648425
-Longitude: 87.1189433
-Map Location:  https://www.google.com/maps/place/23.648425,87.1189433
-Google Earth:  https://earth.google.com/web/search/23.648425,87.1189433
-------------------

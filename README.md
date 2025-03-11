@@ -1,60 +1,101 @@
-# hound 🐶
-Hound is a simple and light tool for information gathering and capture exact GPS coordinates
-![image](https://user-images.githubusercontent.com/42796435/229538253-e0a9c811-60e4-4294-bd3b-8eb7621b51f5.png)
+# 🐾 **Hound Tool** 🐾
 
-# What is Hound?
-<p>Hound is a tool that can remotely capture the exact GPS coordinates of a target device using a PHP server, and can also grab basic information about the system and ISP. This tool can be very helpful in information gathering. you can get following information of the target device</p>
-<ul>
-  <li>Longitude</li>
-  <li>Latitude</li>
-  <li>Device Model</li>
-  <li>Operating System</li>
-  <li>Number of CPU Cores</li>
-  <li>Screen Resolution</li>
-  <li>User agent</li>
-  <li>Public IP Address</li>
-  <li>Browser Name</li>
-  <li>ISP Information</li>
-</ul>
+A fork of the original **Hound Tool** by **Anil Prasad (techchip)**, with fixes and improvements! 🛠️  
+This version removes the broken Cloudflare link generation and replaces it with **Tunnelmole** and **localhost.run** for reliable public link generation using port forwarding. 🚀
 
-## Features
-  <p>The tool offers a wide range of features and functionality, including:</p>
-    <ul>
-  <li>Capture Exact GPS Location</li>
-  <li>Automated Data Collection</li>
-   <li>User-friendly Interface</li>
-</ul>
+---
 
-## This Tool Tested On :
-<ul>
-  <li>Kali Linux</li>
-  <li>Windows(WSL)</li>
-  <li>Termux</li>
-  <li>MacOS</li>
-  <li>Ubuntu</li>
-  <li>Parrot Sec OS</li>
-</ul>
+## 📜 **Description**
 
-## Installing and requirements
-<p>This tool require PHP for webserver, wget & unzip for download and extract cloudflare. First run following command on your terminal</p>
+**Hound** is a simple and lightweight tool for information gathering and capturing exact GPS coordinates. 🌐  
+This fork fixes issues with the original tool, ensuring you can generate public links without any hassle. 🎉  
 
-```
-apt-get -y install php unzip git wget
+### 🚀 **Key Features**
+- **Tunnelmole Integration**: Generate public links using Tunnelmole for seamless port forwarding. 🔗
+- **localhost.run Integration**: Use localhost.run as an alternative for public link generation. 🌍
+- **No More Cloudflare**: Removed the broken Cloudflare link generation. 🚫
+- **Easy to Use**: Simple commands to start and share your local server. 🛠️
+- **One-Command Installation**: Install Hound in Termux with a single command! 🚀
+
+---
+
+## 🛠️ **Installation**
+
+You can install **Hound** in Termux with just one command! 🚀  
+
+### **One-Command Installation**
+```bash
+curl -sL https://github.com/Anon4You/hound/raw/main/install.sh | bash
 ```
 
-## Installing (Kali Linux/Termux):
+This command will:
+1. Install all required dependencies (Git, PHP, Node.js, and Tunnelmole). 🛠️
+2. Clone the repository to `$PREFIX/share/hound`. 📂
+3. Create a `hound` executable in `$PREFIX/bin` for easy access. 🚀
 
-```
-git clone https://github.com/techchipnet/hound
-cd hound
-bash hound.sh
-```
-## Change log:
-Version: 0.2: Remove Ngrok and update cloudflared tunnel
+---
 
-### Video Demo
-[![Hound Demo](https://img.youtube.com/vi/IiJRyVmITgI/0.jpg)](https://www.youtube.com/watch?v=IiJRyVmITgI)
+## 🚀 **Usage**
 
-### For More Video subcribe <a href="http://youtube.com/techchipnet">TechChip YouTube Channel</a>
-<p>Hound is created to help in penetration testing and it's not responsible for any misuse or illegal purposes.</p>
-credit - Chatbot template : Masud Rana
+Once installed, you can use the `hound` command to start the tool. 🛠️  
+
+### **Commands**
+- **Start Hound**:  
+  ```bash
+  hound
+  ```
+  This will start the tool and guide you through the process of generating a public link. 🌐
+
+---
+
+## 🛠️ **What's Fixed?**
+- **Removed Cloudflare**: The original tool had issues with Cloudflare link generation. This fork removes it entirely. 🚫
+- **Added Tunnelmole**: Integrated Tunnelmole for reliable public link generation. 🔗
+- **Added localhost.run**: Added localhost.run as an alternative for public link generation. 🌍
+
+---
+
+## 📝 **Requirements**
+
+Before using **Hound**, ensure you have the following installed:
+- **Git** (`apt install git`)
+- **PHP** (`apt install php`)
+- **Node.js** (`apt install nodejs`)
+- **Tunnelmole** (`npm install -g tunnelmole`)
+
+*Note*: The installation script will automatically install these dependencies for you. 🛠️
+
+---
+
+## 🤝 **Contributing**
+
+Contributions are welcome! 🎉  
+If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. 🛠️
+
+---
+
+## 📜 **License**
+
+This project is licensed under the **GPL-3.0 License**.  
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 **Credits**
+
+- **Original Tool**: [Hound by techchipnet](https://github.com/techchipnet/hound) 🐾
+- **Fork Maintainer**: [Alienkrishn](https://github.com/Anon4You) 🛠️
+
+---
+
+## 🌟 **Support**
+
+If you find this tool helpful, consider giving it a ⭐️ on GitHub!  
+Your support motivates me to keep improving this tool. 🚀
+
+---
+
+Enjoy using **Hound**! 🐕‍🦺  
+For any questions or issues, feel free to open an issue on GitHub. 🛠️
+
+---
